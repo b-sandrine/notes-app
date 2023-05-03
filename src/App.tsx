@@ -1,13 +1,13 @@
 
 import './App.css'
 import Card from './component/Card/Card'
-import Item from './component/Item/Item'
+import AddItemIcon from './component/AddItemIcon/AddItemIcon'
 function App() {
 
   return (
     <div className='main--container'>
       <Card />
-      <Item />
+      <AddItemIcon />
     </div>
   )
 }
