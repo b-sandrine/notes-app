@@ -1,0 +1,17 @@
+.mainloading--container {
+    width: 30%;
+    height: 200px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: red;
+    justify-content: center;
+}
+
+.mainloading--container img {
+    width: 50%;
+    height: 200px;
+}
+
+.mainloading--container p {
+    text-align: left;
+}
