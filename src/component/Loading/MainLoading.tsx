@@ -6,7 +6,7 @@ export default function MainLoading () {
     return (
         <div className="mainloading--container">
             <img src={Loading_image} alt="A place holder image for loading page" />
-            <p>Loading ...</p>
+            {/* <p>Loading ...</p> */}
         </div>
     )
 }
