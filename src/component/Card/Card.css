@@ -1,0 +1,48 @@
+
+.card--container {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: -2px 4px 20px -10px;
+    margin: 30px;
+}
+
+.data {
+    height: 200px;
+    margin: 10px 5px;
+}
+
+.data h1 {
+    height: 100px;
+    text-align: center;
+}
+
+.data p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.operations {
+    height: 40px;
+    margin: 10px 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: left;
+}
+
+.delete-icon {
+    font-size: 30px;
+    color: red;
+    margin-right: 10px;
+}
+
+.edit-icon {
+    font-size: 30px;
+    color: blue;
+    margin-right: 10px;
+}
