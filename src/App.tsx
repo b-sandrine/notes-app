@@ -7,6 +7,7 @@ import { Route, Routes  } from 'react-router'
 // import { useState, useEffect } from 'react'
 // import { useNavigate } from 'react-router'
 import Login from './component/Login/Login'
+import Register from './component/Register/Register'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Routes>
         <Route path='/' element={<MainLoading/>} />
         <Route path='/login' element={<Login/>}/>
+        <Route path='/register' element={<Register />} />
         <Route path="/card" element= {<Card />}/>
         <Route path='/add-item' element={<AddItem />}/>
       </Routes>
